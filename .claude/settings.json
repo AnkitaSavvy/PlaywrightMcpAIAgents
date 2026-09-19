@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit",
+      "Write",
+      "Read",
+      "Bash(npx playwright *)",
+      "Bash(npm *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "mcp__playwright-test"
+    ]
+  }
+}

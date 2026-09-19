@@ -1,0 +1,1859 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/lib/node_modules/node/bin/node",
+      "/Users/ankita/Documents/PlaywrightAIAgent/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/Users/ankita/Documents/PlaywrightAIAgent/playwright.config.ts",
+    "rootDir": "/Users/ankita/Documents/PlaywrightAIAgent/src/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/ankita/Documents/PlaywrightAIAgent/src/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/html",
+          "open": "never"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "reports/junit/results.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/json/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "e2e/blank-form.spec.ts",
+      "file": "e2e/blank-form.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout",
+          "file": "e2e/blank-form.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Checkout form: all fields blank",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3141,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:24.471Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:23.970Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-blank-form-Checkout-Checkout-form-all-fields-blank-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-blank-form-Checkout-Checkout-form-all-fields-blank-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fb752a840e80b0c30115-b8797152df1ef13354c7",
+              "file": "e2e/blank-form.spec.ts",
+              "line": 6,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/cancel.spec.ts",
+      "file": "e2e/cancel.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout",
+          "file": "e2e/cancel.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Cancel checkout returns to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2545,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:24.471Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:23.962Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-cancel-Checkout-Cancel-checkout-returns-to-cart-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-cancel-Checkout-Cancel-checkout-returns-to-cart-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3d3280ad5a66445dbba3-fe7452cb1c1605d9f54b",
+              "file": "e2e/cancel.spec.ts",
+              "line": 6,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/empty-cart.spec.ts",
+      "file": "e2e/empty-cart.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout",
+          "file": "e2e/empty-cart.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Checkout with empty cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 5847,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:24.473Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:23.971Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-empty-cart-Checkout-Checkout-with-empty-cart-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-empty-cart-Checkout-Checkout-with-empty-cart-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d31260dd038073498e96-3be77af36bd34f8c844c",
+              "file": "e2e/empty-cart.spec.ts",
+              "line": 7,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/happy-path.spec.ts",
+      "file": "e2e/happy-path.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout",
+          "file": "e2e/happy-path.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Happy path: complete an order end to end",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 4146,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:24.471Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Finish the order",
+                          "duration": 344
+                        }
+                      ],
+                      "startTime": "2026-09-19T09:29:23.964Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "Finish the order",
+                          "contentType": "image/png",
+                          "body": "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ABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAAAABAFAJoAAAAAACiEEADAAAAABCFABoAAAAAgCgE0AAAAAAARCGABgAAAAAgCgE0AAAAAABRCKABAAAAAIhCAA0AAAAAQBQCaAAAAAAAohBAAwAAAAAQhQAaAAAAAIAoBNAAAAAAAEQhgAYAAAAAIAoBNAAAAAAAUQigAQAAAACIQgANAAAAAEAUAmgAAAAAAKIQQAMAAAAAEIUAGgAAAACAKATQAAAAAABEIYAGAAAAACAKATQAAAAAAFEIoAEAAAAAiEIADQAA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"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-happy-path-Checkout-Ha-e8cfd-omplete-an-order-end-to-end-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-happy-path-Checkout-Ha-e8cfd-omplete-an-order-end-to-end-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7ebd4a5a526bc224cc08-8fd086395db5366c3ad6",
+              "file": "e2e/happy-path.spec.ts",
+              "line": 8,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/missing-last-name.spec.ts",
+      "file": "e2e/missing-last-name.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout",
+          "file": "e2e/missing-last-name.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Checkout form: last name missing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3503,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:26.916Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:26.864Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-missing-last-name-Chec-21910-kout-form-last-name-missing-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-missing-last-name-Chec-21910-kout-form-last-name-missing-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e74496bf0e2d7caf8af5-46579eedf53706231473",
+              "file": "e2e/missing-last-name.spec.ts",
+              "line": 7,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/missing-postal-code.spec.ts",
+      "file": "e2e/missing-postal-code.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout",
+          "file": "e2e/missing-postal-code.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Checkout form: postal code missing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2816,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:27.515Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:27.464Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-missing-postal-code-Ch-ac2bc-ut-form-postal-code-missing-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-missing-postal-code-Ch-ac2bc-ut-form-postal-code-missing-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1f65daad1738f03e0a40-760877ba90bd266ac9e9",
+              "file": "e2e/missing-postal-code.spec.ts",
+              "line": 7,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/multiple-items-order.spec.ts",
+      "file": "e2e/multiple-items-order.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "End to end",
+          "file": "e2e/multiple-items-order.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Order with multiple items shows correct totals",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 4496,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:28.512Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:28.463Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-multiple-items-order-E-66605--items-shows-correct-totals-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-multiple-items-order-E-66605--items-shows-correct-totals-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b2f581eb792fbe4acfb7-bd041c23573d98c2ef99",
+              "file": "e2e/multiple-items-order.spec.ts",
+              "line": 7,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/other-valid-users-order.spec.ts",
+      "file": "e2e/other-valid-users-order.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "End to end",
+          "file": "e2e/other-valid-users-order.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Other valid user completes an order: performance_glitch_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 17774,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:30.288Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:30.191Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-other-valid-users-orde-a24c7-der-performance-glitch-user-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-other-valid-users-orde-a24c7-der-performance-glitch-user-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "080ca720cadba57f35f0-395e1793306557aa1799",
+              "file": "e2e/other-valid-users-order.spec.ts",
+              "line": 9,
+              "column": 9
+            },
+            {
+              "title": "Other valid user completes an order: visual_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3471,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:30.382Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:30.328Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-other-valid-users-orde-54531-pletes-an-order-visual-user-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-other-valid-users-orde-54531-pletes-an-order-visual-user-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "080ca720cadba57f35f0-d9d23ed5f2d988a3bd70",
+              "file": "e2e/other-valid-users-order.spec.ts",
+              "line": 9,
+              "column": 9
+            },
+            {
+              "title": "Other valid user completes an order: error_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7495,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:30.459Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:30.409Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-other-valid-users-orde-7985d-mpletes-an-order-error-user-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-other-valid-users-orde-7985d-mpletes-an-order-error-user-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "080ca720cadba57f35f0-4d8ce6743e385bf0eb5c",
+              "file": "e2e/other-valid-users-order.spec.ts",
+              "line": 9,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/problem-user-checkout.spec.ts",
+      "file": "e2e/problem-user-checkout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "End to end",
+          "file": "e2e/problem-user-checkout.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Problem user cannot complete checkout (known site defect)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 5454,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:33.062Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:33.009Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-problem-user-checkout--9c40b-checkout-known-site-defect--chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-problem-user-checkout--9c40b-checkout-known-site-defect--chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a8de2edc11909bf47c58-a77daa19c87faf93a5f3",
+              "file": "e2e/problem-user-checkout.spec.ts",
+              "line": 8,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/protected-pages.spec.ts",
+      "file": "e2e/protected-pages.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "End to end",
+          "file": "e2e/protected-pages.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Opening inventory without logging in redirects to login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1032,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:33.841Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-protected-pages-End-to-1e365-gging-in-redirects-to-login-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-protected-pages-End-to-1e365-gging-in-redirects-to-login-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "77b13484a16d7cfe588b-d38e3ec2b746408cb133",
+              "file": "e2e/protected-pages.spec.ts",
+              "line": 9,
+              "column": 9
+            },
+            {
+              "title": "Opening cart without logging in redirects to login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1572,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:34.888Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-protected-pages-End-to-9265e-gging-in-redirects-to-login-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-protected-pages-End-to-9265e-gging-in-redirects-to-login-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "77b13484a16d7cfe588b-e0157babb8d0aeee81cc",
+              "file": "e2e/protected-pages.spec.ts",
+              "line": 9,
+              "column": 9
+            },
+            {
+              "title": "Opening checkout-step-one without logging in redirects to login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1029,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:36.478Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-protected-pages-End-to-a1942-gging-in-redirects-to-login-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-protected-pages-End-to-a1942-gging-in-redirects-to-login-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "77b13484a16d7cfe588b-4c26ce00abe4082e5ea7",
+              "file": "e2e/protected-pages.spec.ts",
+              "line": 9,
+              "column": 9
+            },
+            {
+              "title": "Opening checkout-step-two without logging in redirects to login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1014,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:37.523Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-protected-pages-End-to-debfb-gging-in-redirects-to-login-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-protected-pages-End-to-debfb-gging-in-redirects-to-login-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "77b13484a16d7cfe588b-12a4dbab72581d03bb05",
+              "file": "e2e/protected-pages.spec.ts",
+              "line": 9,
+              "column": 9
+            },
+            {
+              "title": "Opening checkout-complete without logging in redirects to login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1363,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:37.973Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-protected-pages-End-to-de30e-gging-in-redirects-to-login-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-protected-pages-End-to-de30e-gging-in-redirects-to-login-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "77b13484a16d7cfe588b-d0865ea6d8f188a458e0",
+              "file": "e2e/protected-pages.spec.ts",
+              "line": 9,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/recover-from-invalid-checkout.spec.ts",
+      "file": "e2e/recover-from-invalid-checkout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "End to end",
+          "file": "e2e/recover-from-invalid-checkout.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Order completes after fixing an invalid checkout form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 3593,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:38.573Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:38.501Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-recover-from-invalid-c-b1d58-ng-an-invalid-checkout-form-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-recover-from-invalid-c-b1d58-ng-an-invalid-checkout-form-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cdf9cd012229c12337ff-13b037e5dce44a5a35be",
+              "file": "e2e/recover-from-invalid-checkout.spec.ts",
+              "line": 7,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/recover-from-invalid-login.spec.ts",
+      "file": "e2e/recover-from-invalid-login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "End to end",
+          "file": "e2e/recover-from-invalid-login.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Order completes after a failed login is corrected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3188,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:38.623Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:38.556Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-recover-from-invalid-l-3be6f-a-failed-login-is-corrected-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-recover-from-invalid-l-3be6f-a-failed-login-is-corrected-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "791db9a96ae1e4b4b610-3cfe265574634867a5e9",
+              "file": "e2e/recover-from-invalid-login.spec.ts",
+              "line": 8,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/remove-item.spec.ts",
+      "file": "e2e/remove-item.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout",
+          "file": "e2e/remove-item.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Remove item from cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1980,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:39.413Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:39.358Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-remove-item-Checkout-Remove-item-from-cart-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-remove-item-Checkout-Remove-item-from-cart-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "499248f198aa132d05b1-1c93395fe03bb2095a6d",
+              "file": "e2e/remove-item.spec.ts",
+              "line": 6,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/thank-you-message.spec.ts",
+      "file": "e2e/thank-you-message.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout",
+          "file": "e2e/thank-you-message.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Order confirmation shows thank-you message",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 6569,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:41.419Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:41.368Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-thank-you-message-Chec-d1d41-ion-shows-thank-you-message-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-thank-you-message-Chec-d1d41-ion-shows-thank-you-message-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cf8e6161dab6efd00dc4-821973de90bb16433d1d",
+              "file": "e2e/thank-you-message.spec.ts",
+              "line": 7,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/unusual-input.spec.ts",
+      "file": "e2e/unusual-input.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout",
+          "file": "e2e/unusual-input.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Checkout form: unusual input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3657,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:41.858Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:41.786Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-unusual-input-Checkout-Checkout-form-unusual-input-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-unusual-input-Checkout-Checkout-form-unusual-input-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d2e33da6fe4fc5ed03e1-bfb0d60c661001659b76",
+              "file": "e2e/unusual-input.spec.ts",
+              "line": 6,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e/valid-data-variations-order.spec.ts",
+      "file": "e2e/valid-data-variations-order.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "End to end",
+          "file": "e2e/valid-data-variations-order.spec.ts",
+          "line": 11,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Valid checkout data variation completes the order: hyphen and apostrophe in name",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 4588,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:42.195Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:42.139Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-valid-data-variations--7d88c-phen-and-apostrophe-in-name-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-valid-data-variations--7d88c-phen-and-apostrophe-in-name-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a6593dde2964053f2f95-a27033906f9e926f6ace",
+              "file": "e2e/valid-data-variations-order.spec.ts",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Valid checkout data variation completes the order: space in last name and postal code",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4528,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:45.536Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:45.483Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-valid-data-variations--31aa0-n-last-name-and-postal-code-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-valid-data-variations--31aa0-n-last-name-and-postal-code-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a6593dde2964053f2f95-4f6414d015b73644f2a2",
+              "file": "e2e/valid-data-variations-order.spec.ts",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Valid checkout data variation completes the order: long values",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 5049,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:46.819Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:46.769Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-valid-data-variations--6aea1-letes-the-order-long-values-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/e2e-valid-data-variations--6aea1-letes-the-order-long-values-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a6593dde2964053f2f95-b7fc8a9e59ef98f92074",
+              "file": "e2e/valid-data-variations-order.spec.ts",
+              "line": 13,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "login/blank-credentials.spec.ts",
+      "file": "login/blank-credentials.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login",
+          "file": "login/blank-credentials.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Blank credentials do not log in",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1462,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:48.086Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:48.010Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/login-blank-credentials-Lo-8efc6-k-credentials-do-not-log-in-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/login-blank-credentials-Lo-8efc6-k-credentials-do-not-log-in-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "db6f0279dfc728330a77-6c1e356f01b773e8f5a5",
+              "file": "login/blank-credentials.spec.ts",
+              "line": 7,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "login/invalid-password.spec.ts",
+      "file": "login/invalid-password.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login",
+          "file": "login/invalid-password.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Wrong password shows error",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1408,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:48.087Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:48.035Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/login-invalid-password-Login-Wrong-password-shows-error-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/login-invalid-password-Login-Wrong-password-shows-error-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a55ee14e8e61babf6b5d-e82ffab4c369190953ae",
+              "file": "login/invalid-password.spec.ts",
+              "line": 7,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "login/invalid-username.spec.ts",
+      "file": "login/invalid-username.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login",
+          "file": "login/invalid-username.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Unknown username shows error",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1208,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:49.557Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:49.491Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/login-invalid-username-Login-Unknown-username-shows-error-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/login-invalid-username-Login-Unknown-username-shows-error-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c8836605cea409f299f-08a60be94ceef37b96ef",
+              "file": "login/invalid-username.spec.ts",
+              "line": 7,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "login/locked-out-user.spec.ts",
+      "file": "login/locked-out-user.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login",
+          "file": "login/locked-out-user.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Locked-out user cannot log in",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1843,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:49.569Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:49.510Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/login-locked-out-user-Login-Locked-out-user-cannot-log-in-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/login-locked-out-user-Login-Locked-out-user-cannot-log-in-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dcfd3c9f116b4a786a9c-22e7911e8dec104b8448",
+              "file": "login/locked-out-user.spec.ts",
+              "line": 7,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "login/valid-login.spec.ts",
+      "file": "login/valid-login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login",
+          "file": "login/valid-login.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Valid login lands on products page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1711,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-09-19T09:29:50.126Z [info] [LoginPage] goto ./\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T09:29:50.059Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/login-valid-login-Login-Valid-login-lands-on-products-page-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/ankita/Documents/PlaywrightAIAgent/reports/artifacts/login-valid-login-Login-Valid-login-lands-on-products-page-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37bc7efeed4579ac5b8b-4b931e9ee4042c0692a6",
+              "file": "login/valid-login.spec.ts",
+              "line": 7,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-19T09:29:23.564Z",
+    "duration": 28357.635000000002,
+    "expected": 29,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

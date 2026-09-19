@@ -1,0 +1,329 @@
+<testsuites id="" name="" tests="29" failures="0" skipped="0" errors="0" time="28.357635000000002">
+<testsuite name="e2e/blank-form.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.141" errors="0">
+<testcase name="Checkout › Checkout form: all fields blank" classname="e2e/blank-form.spec.ts" time="3.141">
+<system-out>
+<![CDATA[2026-09-19T09:29:24.471Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-blank-form-Checkout-Checkout-form-all-fields-blank-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-blank-form-Checkout-Checkout-form-all-fields-blank-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/cancel.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.545" errors="0">
+<testcase name="Checkout › Cancel checkout returns to cart" classname="e2e/cancel.spec.ts" time="2.545">
+<system-out>
+<![CDATA[2026-09-19T09:29:24.471Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-cancel-Checkout-Cancel-checkout-returns-to-cart-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-cancel-Checkout-Cancel-checkout-returns-to-cart-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/empty-cart.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.847" errors="0">
+<testcase name="Checkout › Checkout with empty cart" classname="e2e/empty-cart.spec.ts" time="5.847">
+<system-out>
+<![CDATA[2026-09-19T09:29:24.473Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-empty-cart-Checkout-Checkout-with-empty-cart-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-empty-cart-Checkout-Checkout-with-empty-cart-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/happy-path.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.146" errors="0">
+<testcase name="Checkout › Happy path: complete an order end to end" classname="e2e/happy-path.spec.ts" time="4.146">
+<system-out>
+<![CDATA[2026-09-19T09:29:24.471Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-happy-path-Checkout-Ha-e8cfd-omplete-an-order-end-to-end-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-happy-path-Checkout-Ha-e8cfd-omplete-an-order-end-to-end-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/missing-last-name.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.503" errors="0">
+<testcase name="Checkout › Checkout form: last name missing" classname="e2e/missing-last-name.spec.ts" time="3.503">
+<system-out>
+<![CDATA[2026-09-19T09:29:26.916Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-missing-last-name-Chec-21910-kout-form-last-name-missing-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-missing-last-name-Chec-21910-kout-form-last-name-missing-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/missing-postal-code.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.816" errors="0">
+<testcase name="Checkout › Checkout form: postal code missing" classname="e2e/missing-postal-code.spec.ts" time="2.816">
+<system-out>
+<![CDATA[2026-09-19T09:29:27.515Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-missing-postal-code-Ch-ac2bc-ut-form-postal-code-missing-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-missing-postal-code-Ch-ac2bc-ut-form-postal-code-missing-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/multiple-items-order.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.496" errors="0">
+<testcase name="End to end › Order with multiple items shows correct totals" classname="e2e/multiple-items-order.spec.ts" time="4.496">
+<system-out>
+<![CDATA[2026-09-19T09:29:28.512Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-multiple-items-order-E-66605--items-shows-correct-totals-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-multiple-items-order-E-66605--items-shows-correct-totals-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/other-valid-users-order.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="3" failures="0" skipped="0" time="28.74" errors="0">
+<testcase name="End to end › Other valid user completes an order: performance_glitch_user" classname="e2e/other-valid-users-order.spec.ts" time="17.774">
+<system-out>
+<![CDATA[2026-09-19T09:29:30.288Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-other-valid-users-orde-a24c7-der-performance-glitch-user-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-other-valid-users-orde-a24c7-der-performance-glitch-user-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="End to end › Other valid user completes an order: visual_user" classname="e2e/other-valid-users-order.spec.ts" time="3.471">
+<system-out>
+<![CDATA[2026-09-19T09:29:30.382Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-other-valid-users-orde-54531-pletes-an-order-visual-user-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-other-valid-users-orde-54531-pletes-an-order-visual-user-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="End to end › Other valid user completes an order: error_user" classname="e2e/other-valid-users-order.spec.ts" time="7.495">
+<system-out>
+<![CDATA[2026-09-19T09:29:30.459Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-other-valid-users-orde-7985d-mpletes-an-order-error-user-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-other-valid-users-orde-7985d-mpletes-an-order-error-user-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/problem-user-checkout.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.454" errors="0">
+<testcase name="End to end › Problem user cannot complete checkout (known site defect)" classname="e2e/problem-user-checkout.spec.ts" time="5.454">
+<system-out>
+<![CDATA[2026-09-19T09:29:33.062Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-problem-user-checkout--9c40b-checkout-known-site-defect--chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-problem-user-checkout--9c40b-checkout-known-site-defect--chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/protected-pages.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="5" failures="0" skipped="0" time="6.01" errors="0">
+<testcase name="End to end › Opening inventory without logging in redirects to login" classname="e2e/protected-pages.spec.ts" time="1.032">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../artifacts/e2e-protected-pages-End-to-1e365-gging-in-redirects-to-login-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-protected-pages-End-to-1e365-gging-in-redirects-to-login-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="End to end › Opening cart without logging in redirects to login" classname="e2e/protected-pages.spec.ts" time="1.572">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../artifacts/e2e-protected-pages-End-to-9265e-gging-in-redirects-to-login-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-protected-pages-End-to-9265e-gging-in-redirects-to-login-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="End to end › Opening checkout-step-one without logging in redirects to login" classname="e2e/protected-pages.spec.ts" time="1.029">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../artifacts/e2e-protected-pages-End-to-a1942-gging-in-redirects-to-login-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-protected-pages-End-to-a1942-gging-in-redirects-to-login-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="End to end › Opening checkout-step-two without logging in redirects to login" classname="e2e/protected-pages.spec.ts" time="1.014">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../artifacts/e2e-protected-pages-End-to-debfb-gging-in-redirects-to-login-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-protected-pages-End-to-debfb-gging-in-redirects-to-login-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="End to end › Opening checkout-complete without logging in redirects to login" classname="e2e/protected-pages.spec.ts" time="1.363">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../artifacts/e2e-protected-pages-End-to-de30e-gging-in-redirects-to-login-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-protected-pages-End-to-de30e-gging-in-redirects-to-login-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/recover-from-invalid-checkout.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.593" errors="0">
+<testcase name="End to end › Order completes after fixing an invalid checkout form" classname="e2e/recover-from-invalid-checkout.spec.ts" time="3.593">
+<system-out>
+<![CDATA[2026-09-19T09:29:38.573Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-recover-from-invalid-c-b1d58-ng-an-invalid-checkout-form-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-recover-from-invalid-c-b1d58-ng-an-invalid-checkout-form-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/recover-from-invalid-login.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.188" errors="0">
+<testcase name="End to end › Order completes after a failed login is corrected" classname="e2e/recover-from-invalid-login.spec.ts" time="3.188">
+<system-out>
+<![CDATA[2026-09-19T09:29:38.623Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-recover-from-invalid-l-3be6f-a-failed-login-is-corrected-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-recover-from-invalid-l-3be6f-a-failed-login-is-corrected-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/remove-item.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.98" errors="0">
+<testcase name="Checkout › Remove item from cart" classname="e2e/remove-item.spec.ts" time="1.98">
+<system-out>
+<![CDATA[2026-09-19T09:29:39.413Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-remove-item-Checkout-Remove-item-from-cart-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-remove-item-Checkout-Remove-item-from-cart-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/thank-you-message.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.569" errors="0">
+<testcase name="Checkout › Order confirmation shows thank-you message" classname="e2e/thank-you-message.spec.ts" time="6.569">
+<system-out>
+<![CDATA[2026-09-19T09:29:41.419Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-thank-you-message-Chec-d1d41-ion-shows-thank-you-message-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-thank-you-message-Chec-d1d41-ion-shows-thank-you-message-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/unusual-input.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.657" errors="0">
+<testcase name="Checkout › Checkout form: unusual input" classname="e2e/unusual-input.spec.ts" time="3.657">
+<system-out>
+<![CDATA[2026-09-19T09:29:41.858Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-unusual-input-Checkout-Checkout-form-unusual-input-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-unusual-input-Checkout-Checkout-form-unusual-input-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/valid-data-variations-order.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="3" failures="0" skipped="0" time="14.165" errors="0">
+<testcase name="End to end › Valid checkout data variation completes the order: hyphen and apostrophe in name" classname="e2e/valid-data-variations-order.spec.ts" time="4.588">
+<system-out>
+<![CDATA[2026-09-19T09:29:42.195Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-valid-data-variations--7d88c-phen-and-apostrophe-in-name-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-valid-data-variations--7d88c-phen-and-apostrophe-in-name-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="End to end › Valid checkout data variation completes the order: space in last name and postal code" classname="e2e/valid-data-variations-order.spec.ts" time="4.528">
+<system-out>
+<![CDATA[2026-09-19T09:29:45.536Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-valid-data-variations--31aa0-n-last-name-and-postal-code-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-valid-data-variations--31aa0-n-last-name-and-postal-code-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="End to end › Valid checkout data variation completes the order: long values" classname="e2e/valid-data-variations-order.spec.ts" time="5.049">
+<system-out>
+<![CDATA[2026-09-19T09:29:46.819Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/e2e-valid-data-variations--6aea1-letes-the-order-long-values-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/e2e-valid-data-variations--6aea1-letes-the-order-long-values-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login/blank-credentials.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.462" errors="0">
+<testcase name="Login › Blank credentials do not log in" classname="login/blank-credentials.spec.ts" time="1.462">
+<system-out>
+<![CDATA[2026-09-19T09:29:48.086Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/login-blank-credentials-Lo-8efc6-k-credentials-do-not-log-in-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/login-blank-credentials-Lo-8efc6-k-credentials-do-not-log-in-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login/invalid-password.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.408" errors="0">
+<testcase name="Login › Wrong password shows error" classname="login/invalid-password.spec.ts" time="1.408">
+<system-out>
+<![CDATA[2026-09-19T09:29:48.087Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/login-invalid-password-Login-Wrong-password-shows-error-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/login-invalid-password-Login-Wrong-password-shows-error-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login/invalid-username.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.208" errors="0">
+<testcase name="Login › Unknown username shows error" classname="login/invalid-username.spec.ts" time="1.208">
+<system-out>
+<![CDATA[2026-09-19T09:29:49.557Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/login-invalid-username-Login-Unknown-username-shows-error-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/login-invalid-username-Login-Unknown-username-shows-error-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login/locked-out-user.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.843" errors="0">
+<testcase name="Login › Locked-out user cannot log in" classname="login/locked-out-user.spec.ts" time="1.843">
+<system-out>
+<![CDATA[2026-09-19T09:29:49.569Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/login-locked-out-user-Login-Locked-out-user-cannot-log-in-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/login-locked-out-user-Login-Locked-out-user-cannot-log-in-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login/valid-login.spec.ts" timestamp="2026-09-19T09:29:23.610Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.711" errors="0">
+<testcase name="Login › Valid login lands on products page" classname="login/valid-login.spec.ts" time="1.711">
+<system-out>
+<![CDATA[2026-09-19T09:29:50.126Z [info] [LoginPage] goto ./
+
+[[ATTACHMENT|../artifacts/login-valid-login-Login-Valid-login-lands-on-products-page-chromium/video.webm]]
+
+[[ATTACHMENT|../artifacts/login-valid-login-Login-Valid-login-lands-on-products-page-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

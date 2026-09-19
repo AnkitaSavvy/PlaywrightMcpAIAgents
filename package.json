@@ -1,0 +1,20 @@
+{
+  "name": "playwrightaiagent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:login": "playwright test src/tests/login",
+    "test:e2e": "playwright test src/tests/e2e",
+    "report": "playwright show-report reports/html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}

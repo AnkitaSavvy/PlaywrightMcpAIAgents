@@ -1,0 +1,54 @@
+- generic [active] [ref=f5e1]:
+  - complementary [ref=f5e2]:
+    - button "Close menu" [ref=f5e3] [cursor=pointer]: ×
+    - link "All Items" [ref=f5e4] [cursor=pointer]:
+      - /url: ./inventory.html
+    - link "About" [ref=f5e5] [cursor=pointer]:
+      - /url: https://app.thetestingacademy.com/
+    - link "Logout" [ref=f5e6] [cursor=pointer]:
+      - /url: "#"
+    - link "Reset App State" [ref=f5e7] [cursor=pointer]:
+      - /url: "#"
+  - banner [ref=f5e8]:
+    - button "Open menu" [ref=f5e9] [cursor=pointer]
+    - generic [ref=f5e12]: TTACart
+    - link "Shopping cart" [ref=f5e13] [cursor=pointer]:
+      - /url: ./cart.html
+  - generic [ref=f5e18]: "Checkout: Overview"
+  - main [ref=f5e20]:
+    - generic [ref=f5e22]:
+      - generic [ref=f5e23]:
+        - generic [ref=f5e24]: QTY
+        - generic [ref=f5e25]: Description
+      - generic [ref=f5e26]:
+        - generic [ref=f5e27]:
+          - heading "Payment Information:" [level=4] [ref=f5e28]
+          - generic [ref=f5e29]: "TTACard #31337"
+        - generic [ref=f5e30]:
+          - heading "Shipping Information:" [level=4] [ref=f5e31]
+          - generic [ref=f5e32]: Free TTA Express Delivery!
+        - generic [ref=f5e33]:
+          - heading "Price Total" [level=4] [ref=f5e34]
+          - generic [ref=f5e35]:
+            - generic [ref=f5e36]: "Item total: $0.00"
+            - generic [ref=f5e37]: "Tax: $0.00"
+            - generic [ref=f5e38]: "Total: $0.00"
+      - generic [ref=f5e39]:
+        - link "Cancel" [ref=f5e40] [cursor=pointer]:
+          - /url: ./cart.html
+        - button "Finish" [ref=f5e43] [cursor=pointer]
+  - contentinfo [ref=f5e45]:
+    - generic [ref=f5e46]:
+      - link "Twitter" [ref=f5e47] [cursor=pointer]:
+        - /url: https://twitter.com/TheTestingAcad
+      - link "Facebook" [ref=f5e50] [cursor=pointer]:
+        - /url: https://facebook.com/
+      - link "LinkedIn" [ref=f5e53] [cursor=pointer]:
+        - /url: https://linkedin.com/
+    - generic [ref=f5e56]:
+      - text: (c) 2026 TTACart - The Testing Academy. All Rights Reserved.
+      - link "Terms of Service" [ref=f5e57] [cursor=pointer]:
+        - /url: https://app.thetestingacademy.com/
+      - text: "|"
+      - link "Privacy Policy" [ref=f5e58] [cursor=pointer]:
+        - /url: https://app.thetestingacademy.com/
